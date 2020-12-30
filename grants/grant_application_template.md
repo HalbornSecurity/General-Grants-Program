@@ -1,16 +1,24 @@
 # General Grant Proposal
 
-* **Project:** The name of the project
+* **Project:** Sentinel - Polkadot Security Monitoring and Alerting (by Halborn Inc)
 
-## Project Overview :page_facing_up: 
-If this application in response to an RFP then please indicate this on the first line of this section.
+## Project Overview :page_facing_up:
 
-### Overview
+Continuous chain security monitoring platform built for Polkadot to detect and alert on suspicious transactions, malicious behavior, and known vulnerabilities actively being exploited and used on the blockchain / parachain.  
 
-Please provide the following:
-  * A brief description of the project.
-  * An indication of how you will integrate this project into Substrate / Polkadot / Kusama.
-  * An indication of why your team is interested in creating this project.
+### Project Description
+
+Security exploits, hacks, and malicious actors can tarnish the reputation of an organization like W3F, and the new technology being developed, such as Polkadot. These potential security threats and issues are unavoidable, and can cause it's users and supporters to lose trust in the system; making media headlines, and preventing adoption by potential customers/institutions in the future.
+
+Halborn intends to mitigate this risk by developing Sentinal, a security operations center (SOC) platform that monitors all parachain transactions, and uses a set of  customized security scripts to immediatly detect, fingerprint, and alert the proper stakeholders of active security incidents so the necessary response can be triggered.
+
+The Sentinal security system will be an open framework, allowing security researchers and analysts to submit new or existing vulnerabilities, incident heuristics, economic fingerprints, and transactional behavior analysis patterns to continuous augment its operational capabilities. Crowd-sourcing the research components, and developing a community driven polkadot vulnerbility managment program curated by Halborn; Sentinal will provide the most relevent and advanced security monitoring platform to its users, validators, relayers, blockchain assets, and keep Polkadot one step ahead of the hackers.
+
+Sentinal will be integrated into the ecosystem by rapidly querying, ingesting, indexing, and analyzing tranactional data provided from Substrate tools (telemetry services / polkascan ) and existing web3 subscription API architectures (Web3 Guardian / Polkadot APIs and RPCs) to retrieve all revelent data, and to
+make customized security rules based on anomolies, fingerprints in OpCodes, block attributes, or the transactional characteristics of known threats.
+
+Alerts can be subscribed based on public addresses, contract addresses, validator nodes, or other identifiers that can be captured. Once alerts targets are determined; its stakeholders can have several methods of notification, including a dashboard, slack webhook, pagerduty, or email.
+
 
 ### Project Details 
 We expect the teams to already have a solid idea about the project's expected final state.
